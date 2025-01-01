@@ -1,10 +1,30 @@
+<!DOCTYPE html>
 <html>
-<head>
-	<title>403 Forbidden</title>
-</head>
-<body>
+    <head>
+        <title>SleekSpace</title>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <!-- UIkit CSS -->
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.21.5/dist/css/uikit.min.css" />
 
-<p>Directory access is forbidden.</p>
+		<!-- UIkit JS -->
+		<script src="https://cdn.jsdelivr.net/npm/uikit@3.21.5/dist/js/uikit.min.js"></script>
+		<script src="https://cdn.jsdelivr.net/npm/uikit@3.21.5/dist/js/uikit-icons.min.js"></script>
+    </head>
+    <body>
 
-</body>
+    	<script>
+	        // Wait for 5 seconds before redirecting
+	        setTimeout(function() {
+	            window.location.href = "https://sleekspace.design";
+	        }, 1000);
+	    </script>
+
+    	<section class="uk-section uk-height-viewport uk-background-cover uk-panel uk-flex uk-flex-center uk-flex-middle" style="background-image: url(https://sleekspace.design/assets/images/f5.jpg);">
+    		<div class="uk-overlay-primary uk-position-cover"></div>
+    		<img src="sleekspace-logo.png" class="uk-width-medium uk-position-z-index">
+    	</section>
+
+
+    </body>
 </html>
